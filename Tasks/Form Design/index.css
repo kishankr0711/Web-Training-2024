@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  .form-container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  .form-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form-header h1 {
+    color: #00bcd4;
+    margin-bottom: 5px;
+  }
+  .form-header p {
+    color: #555;
+    font-size: 14px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .form-group .radio-group {
+    display: flex;
+    gap: 10px;
+  }
+  .form-group .radio-group input {
+    margin-right: 5px;
+  }
+  .form-group .star-rating {
+    display: flex;
+    gap: 5px;
+  }
+  .form-group .star-rating span {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  .form-group .star-rating span.active {
+    color: #ffd700;
+  }
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #00bcd4;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .form-group button:hover {
+    background-color: #0199a9;
+  }
+  input {
+    justify-content: center;
+    box-sizing: border-box;
+  }
